@@ -10,7 +10,7 @@
     * ``curl -X POST http://localhost:8080/api/mutant -H "Content-Type: application/json" -d '{
     "dna": [ "ATGCGA", "CAGTGC", "TCATGT", "AGCAGG", "CCCCTA", "TCACTG"]}'``    
 
-    Payload: ``{"dna":["AAAAAA","GGGGGG","TTTTTT","CCCCCC"] } ``
+    Payload: ``{"dna":["AAAAAA","GGGGGG","TTTTTT","CCCCCC", "TTTTTT", "GGGGGG"] } ``
     
     API response:
     
