@@ -77,7 +77,7 @@ class MutantComponentImpl implements MutantComponent {
 
     long humans = dnas.size() - mutants;
 
-    double ratio = mutants / humans;
+    float ratio = (float) mutants / (float) humans;
     return new MutantStat(mutants, humans, ratio);
 
   }

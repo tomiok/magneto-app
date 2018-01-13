@@ -19,6 +19,6 @@ public interface MutantComponent {
 
     private final long countMutantDna;
     private final long countHumanDna;
-    private final double ratio;
+    private final float ratio;
   }
 }

@@ -5,7 +5,7 @@ import lombok.Setter;
 
 @Getter
 @Setter
-public class MutantHttpRequest {
+class MutantHttpRequest {
 
   private String[] dna;
 }
