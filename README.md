@@ -6,20 +6,18 @@
 
 * REST APIs exposed
 - URLs
-   localhost:8080/api/mutant
-   localhost:8080/api/stats
+   * `localhost:8080/api/mutant`
+   * `localhost:8080/api/stats`
 
 - POST localhost:8080/api/mutant 
     * ``curl -X POST http://localhost:8080/api/mutant -H "Content-Type: application/json" -d '{
     "dna": [ "ATGCGA", "CAGTGC", "TCATGT", "AGCAGG", "CCCCTA", "TCACTG"]}'``    
-
-    Payload: ``{"dna":["AAAAAA","GGGGGG","TTTTTT","CCCCCC", "TTTTTT", "GGGGGG"] } ``
     
     API response:
     
-    200 if is a mutant.
+    - 200 if is a mutant.
     
-    403 if is a human.
+    - 403 if is a human.
 
     
 - GET localhost:8080/api/stats    
